@@ -1,0 +1,171 @@
+h2, p, div {
+    letter-spacing: 1px;
+}
+
+table th {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #0e566c;
+}
+
+.ui.container {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+
+/* Resume main region */
+.resume-region-wrapper, .add-info-region-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-region-wrapper {
+    background-color: #F0FFFF;
+    width: 70%;
+    padding: 40px 50px 40px 40px;
+}
+
+.resume-title {
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #0d71bb;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.resume-title i {
+    transform: scale(1.4);
+    padding-left: 3px;
+}
+
+.resume-title-text {
+    padding: 0 0 10px 10px;
+}
+
+/* Work experience */
+.work-region-wrapper {
+    border: none;
+}
+
+.work-time {
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.work-description {
+    padding-left: 40px;
+}
+
+.work-company-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Additional info region*/
+.add-info-region-wrapper {
+    width: 30%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.add-info-title {
+    padding: 14px 15px;
+    background-color: teal;
+    display: flex;
+    color: #0f0f10;
+}
+
+.skills-wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.languages-wrapper {
+
+}
+
+.add-info-region-wrapper > div > ul > li{
+    word-break: break-all;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Additional info lists*/
+.hobbies-wrapper {
+    padding: 30px;
+}
+
+.contacts-list-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Photo */
+.cv-photo {
+    padding: 50px 35px 35px 35px;
+}
+.cv-photo img{
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+
+/* The top text*/
+.work-position-name {
+    font-weight: bold;
+}
+
+.user-name {
+    font-size: 40px;
+    align-self: left;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+
+.user-job {
+    font-size: 20px;
+    color: teal;
+    padding: 75px 0 20px 0;
+}
+
+
+/* Identificators for skill levels */
+#mssqlserver {
+    margin: 20px;
+    height: 8px;
+}
+
+#csharp {
+    margin: 20px;
+    height: 8px;
+}
+
+#java {
+    margin: 20px;
+    height: 8px;
+}
+
+#frontend {
+    margin: 20px;
+    height: 8px;
+}
+
+#algorithms {
+    margin: 20px;
+    height: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #1a69a4;
+}
