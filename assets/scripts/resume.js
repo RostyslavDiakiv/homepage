@@ -2,25 +2,48 @@ const obj = {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#00e5ff',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'},
-    from: {color: '#FFEA82'},
-    to: {color: '#ED6A5A'},
+    from: {color: '#00e5ff'},
+    to: {color: '#2c18f1'},
     step: (state, bar) => {
         bar.path.setAttribute('stroke', state.color);
     }
 };
 
-const mssqlserverf = new ProgressBar.Line(mssqlserver, obj);
-const csharpf = new ProgressBar.Line(csharp, obj);
+const ecommercef = new ProgressBar.Line(ecommerce, obj);
+const programmanagementf = new ProgressBar.Line(programmanagement, obj);
+const agilef = new ProgressBar.Line(agile, obj);
 const javaf = new ProgressBar.Line(java, obj);
-const frontendf = new ProgressBar.Line(frontend, obj);
-const algorithmsf = new ProgressBar.Line(algorithms, obj);
+const webdevf = new ProgressBar.Line(webdev, obj);
+const algorf = new ProgressBar.Line(algor, obj);
 
-mssqlserverf.animate(0.6); // Number from 0.0 to 1.0
-csharpf.animate(1.0);
-javaf.animate(0.3);
-frontendf.animate(0.7);
-algorithmsf.animate(0.9);
+ecommercef.animate(0.5); // Number from 0.0 to 1.0
+programmanagementf.animate(1.0);
+agilef.animate(0.8);
+javaf.animate(0.2);
+webdevf.animate(0.4);
+algorf.animate(0.5);
+
+// setTimeout(() => {
+//     document.getElementById('wrapperId').style.backgroundColor = '#ED6A5A';
+// }, 2000);
+//
+// setTimeout(() => {
+//     const d = document.getElementsByClassName("teal-icon");
+//
+//     for (var i=0;i<d.length;i++)
+//     {
+//         var text = d[i].textContent;
+//
+//         if (text.length === 1){
+//             d[i].style.color ='blue';
+//         }
+//         else {
+//             d[i].setAttribute("style", "color:red;");
+//         }
+//     }
+//
+// }, 2000);
