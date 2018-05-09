@@ -86,7 +86,6 @@ tr.spaceUnder>td {
 .contacts-wrapper {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .contacts-inline {
@@ -94,7 +93,6 @@ tr.spaceUnder>td {
     font-size: 12px;
     padding-left: 15px;
 }
-
 
 /* Additional info region*/
 .add-info-region-wrapper {
