@@ -10,6 +10,31 @@ table th {
     background-color: #1e7999;
 }
 
+.header-top {
+    padding: 50px;
+}
+
+.footer-bot {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: block;
+    font-size: 16px;
+    color: #fefefe;
+}
+
+.footer-content a {
+    color: #4bfe41;
+}
+
+.footer-content a:hover {
+    color: #fff300;
+}
+
 .ui.container {
     display: flex !important;
     justify-content: space-between;
@@ -23,7 +48,7 @@ table th {
 
 .resume-region-wrapper {
     background-color: #fefefe;
-    width: 70%;
+    width: 68%;
     padding: 40px 50px 40px 40px;
 }
 
@@ -57,6 +82,10 @@ table th {
     padding: 0 0 10px 10px;
 }
 
+.profile-info {
+    font-size: 16px;
+}
+
 /* Work experience */
 /* table*/
 tr.spaceUnder>td {
@@ -70,6 +99,7 @@ tr.spaceUnder>td {
 .work-time {
     white-space: nowrap;
     vertical-align: baseline;
+    font-weight: bold;
 }
 
 .work-description {
@@ -82,6 +112,12 @@ tr.spaceUnder>td {
     font-size: 18px;
 }
 
+.work-position-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 /* contacts region*/
 .contacts-wrapper {
     display: flex;
@@ -90,13 +126,13 @@ tr.spaceUnder>td {
 
 .contacts-inline {
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 15px;
 }
 
 /* Additional info region*/
 .add-info-region-wrapper {
-    width: 30%;
+    width: 32%;
     background-color: rgba(26, 22, 25, 0.83);
     color: #fefefe;
 }
@@ -109,10 +145,11 @@ tr.spaceUnder>td {
 }
 
 .skills-wrapper{
+    padding: 15px 15px 50px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
+    font-size: 16px;
 }
 
 .add-info-region-wrapper > div > ul > li{
@@ -122,14 +159,15 @@ tr.spaceUnder>td {
 }
 
 .hobbies-wrapper {
-    padding: 15px;
+    padding: 30px;
+    font-size: 16px;
 }
 
 /* Language region */
 .languages-wrapper {
     color: #fefefe;
-    padding: 15px;
-    font-size: 14px;
+    padding: 30px;
+    font-size: 16px;
     word-break: break-word;
 }
 
@@ -138,8 +176,8 @@ tr.spaceUnder>td {
 }
 
 .social-list-wrapper {
-    padding: 15px;
-    font-size: 12px;
+    padding: 30px;
+    font-size: 16px;
     word-break: break-all;
 }
 
@@ -166,12 +204,9 @@ tr.spaceUnder>td {
 }
 
 /* The top text*/
-.work-position-name {
-    font-weight: bold;
-}
 
 .user-name {
-    font-size: 40px;
+    font-size: 50px;
     align-self: left;
     padding-bottom: 65px;
     font-weight: bold;
@@ -180,7 +215,7 @@ tr.spaceUnder>td {
 }
 
 .user-job {
-    font-size: 20px;
+    font-size: 24px;
     color: #3a9ecb;
     padding: 75px 0 20px 0;
 }
