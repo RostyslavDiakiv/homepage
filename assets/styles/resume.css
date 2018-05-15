@@ -152,6 +152,10 @@ tr.spaceUnder>td {
     font-size: 16px;
 }
 
+.skill-name {
+    padding: 10px;
+}
+
 .add-info-region-wrapper > div > ul > li{
     word-break: break-all;
     display: flex;
@@ -226,34 +230,9 @@ tr.spaceUnder>td {
 }
 
 /* Identificators for skill levels */
-#ecommerce {
+.skill-item {
     margin: 20px;
-    height: 8px;
-}
-
-#programmanagement {
-    margin: 20px;
-    height: 8px;
-}
-
-#agile {
-    margin: 20px;
-    height: 8px;
-}
-
-#java {
-    margin: 20px;
-    height: 8px;
-}
-
-#webdev {
-    margin: 20px;
-    height: 8px;
-}
-
-#algor {
-    margin: 20px;
-    height: 8px;
+    height: 12px;
 }
 
 /* scroll bar*/
@@ -281,7 +260,7 @@ tr.spaceUnder>td {
     color-stop(0.86, rgb(28,58,148)));
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 990px){
     .ui.container {
         flex-direction: column-reverse;
     }
