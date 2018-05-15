@@ -280,3 +280,44 @@ tr.spaceUnder>td {
     color-stop(0.72, rgb(73,125,189)),
     color-stop(0.86, rgb(28,58,148)));
 }
+
+@media screen and (max-width: 768px){
+    .ui.container {
+        flex-direction: column-reverse;
+    }
+
+    .cv-photo {
+        align-self: center;
+        padding: 0;
+    }
+
+    .cv-photo:hover {
+        padding: 0;
+        transition: none;
+    }
+
+    .add-info-region-wrapper, .resume-region-wrapper {
+        align-self: center;
+        width: 95%;
+    }
+
+    .social-list-wrapper {
+        align-self: center;
+    }
+
+    .language-table {
+        width: 100% !important;
+    }
+
+    .language-table-text {
+        text-align: center;
+    }
+
+    .language-header-text {
+        text-align: center;
+    }
+
+    .education-table {
+        text-align: center !important;
+    }
+}
