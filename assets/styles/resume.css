@@ -152,6 +152,10 @@ tr.spaceUnder>td {
     font-size: 16px;
 }
 
+.skill-name {
+    padding: 10px;
+}
+
 .add-info-region-wrapper > div > ul > li{
     word-break: break-all;
     display: flex;
@@ -226,34 +230,9 @@ tr.spaceUnder>td {
 }
 
 /* Identificators for skill levels */
-#ecommerce {
+.skill-item {
     margin: 20px;
-    height: 8px;
-}
-
-#programmanagement {
-    margin: 20px;
-    height: 8px;
-}
-
-#agile {
-    margin: 20px;
-    height: 8px;
-}
-
-#java {
-    margin: 20px;
-    height: 8px;
-}
-
-#webdev {
-    margin: 20px;
-    height: 8px;
-}
-
-#algor {
-    margin: 20px;
-    height: 8px;
+    height: 12px;
 }
 
 /* scroll bar*/
@@ -279,4 +258,45 @@ tr.spaceUnder>td {
     color-stop(0.44, rgb(122,153,217)),
     color-stop(0.72, rgb(73,125,189)),
     color-stop(0.86, rgb(28,58,148)));
+}
+
+@media screen and (max-width: 990px){
+    .ui.container {
+        flex-direction: column-reverse;
+    }
+
+    .cv-photo {
+        align-self: center;
+        padding: 0;
+    }
+
+    .cv-photo:hover {
+        padding: 0;
+        transition: none;
+    }
+
+    .add-info-region-wrapper, .resume-region-wrapper {
+        align-self: center;
+        width: 95%;
+    }
+
+    .social-list-wrapper {
+        align-self: center;
+    }
+
+    .language-table {
+        width: 100% !important;
+    }
+
+    .language-table-text {
+        text-align: center;
+    }
+
+    .language-header-text {
+        text-align: center;
+    }
+
+    .education-table {
+        text-align: center !important;
+    }
 }
